@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="mediaquaries.css">
+  </head>
+  <body>
+    <header class="nav-bar">
+      <div class="nav-logo">
+        <h2 class="logo">Jamshid Otaboev</h2>
+      </div>
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li id="home" class="#home">Home</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro">
+      <div class="intro-image">
+        <img src="IMG_5874.JPG" alt="Intro Image" />
+      </div>
+      <div class="intro-text">
+        <p>Hello, I'm</p>
+        <h1>Jamshid Otaboev</h1>
+        <h3>Frontend Developer</h3>
+        <div class="button-container">
+          <button class="cv">
+            <a
+              href="https://1drv.ms/b/s!AouxlQKfZeuVjmrMCETMxqij5dT2?e=9XOF6C"
+              target="_blank"
+              onclick="window.open(' ./Jamshid Otaboev CV - React Student Support.pdf')"
+            >
+              View CV
+            </a>
+          </button>
+          <button class="contact-info" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon-arrow"
+        onclick="location.href=' ./#about'"
+      />
+    </section>
+    <section id="about">
+      <div class="about-container">
+        <p class="start-page">Get To Know More</p>
+        <h1 class="page-start">About Me</h1>
+      </div>
+      <div class="containers">
+        <div class="container1">
+          <h3 style="color: black">Experience</h3>
+          <p>
+            I’m a frontend developer skilled in HTML, CSS, and JavaScript, and
+            mastring in React. I build responsive and user-friendly web
+            applications and focus on optimizing performance and using modern
+            development tools.
+          </p>
+        </div>
+        <div class="container2">
+          <h3 style="color: black">Goals and Ambitons</h3>
+          <p>
+            Looking ahead, I aim to deepen my expertise in advanced JavaScript
+            frameworks and explore new technologies like TypeScript and
+            server-side rendering. I’m also excited to enhance my skills in
+            UI/UX design to create even more intuitive and engaging user
+            experiences
+          </p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+          Driven by a curiosity for how things work, I’ve delved into frontend
+          development to combine my love for problem-solving with creativity. I
+          thrive on transforming complex concepts into simple, elegant user
+          interfaces and enjoy collaborating with teams to bring innovative
+          projects to life. My journey in tech has fueled a passion for
+          continuous growth and exploration!
+        </p>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon-arrow"
+        onclick="location.href=' ./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <div class="projects-text">
+        <p class="start-page">View Recent Projects</p>
+        <h1 class="page-start">Projects</h1>
+      </div>
+      <div class="project-container">
+        <div class="react-container">
+          <img
+            src="Screenshot (160).png"
+            alt="To-Do app picture"
+            class="react-image"
+          />
+          <h2 style="margin: 1rem; color: black">Project One</h2>
+          <button
+            class="cv"
+            onclick="window.location.href='https://github.com/jamshidotaboev/react-app', '_blank'"
+          >
+            View
+          </button>
+          <button
+            class="cv"
+            onclick="window.location.href='https://github.com/jamshidotaboev/react-app', '_blank'"
+            style="margin-left: 10px"
+          >
+            Live Demo
+          </button>
+        </div>
+        <div class="js-container">
+          <img
+            src="la-mejor-aplicacion-de-calculadora-para-android-y-iphone.jpg"
+            alt="calculator Image"
+            class="js-image"
+          />
+          <h2 style="margin: 1rem; color: black">Project Two</h2>
+          <button
+            class="cv"
+            onclick="window.location.href='https://github.com/jamshidotaboev/JScalculator', '_blank'"
+          >
+            View
+          </button>
+          <button
+            class="cv"
+            onclick="window.location.href='https://github.com/jamshidotaboev/JScalculator', '_blank'"
+            style="margin-left: 10px"
+            ,
+          >
+            Live Demo
+          </button>
+        </div>
+        <img
+          src="arrow.png"
+          alt="Icon Arrow"
+          class="project-icon"
+          onclick="location.href=' ./#contact'"
+        />
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-text">
+        <p class="start-page">Get in Touch</p>
+        <h1 class="page-start">Contact Me</h1>
+      </div>
+      <!-- <div class="contac-box"> -->
+        <div class="contact-container">
+          <div class="info-contact">
+            <img src="iconmonstr-email-10.svg" alt="email-icon" />
+            <p><a href="mailto:youremail@example.com">Example@gmail.com</a></p>
+          </div>
+          <div class="info-contact">
+            <img src="iconmonstr-linkedin-3-24.png" alt="email-icon" />
+            <p>
+              <a href="https://www.linkedin.com/" class="linkedin-icon"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-footer">
+      <ul class="footer-end">
+        <li> <a href="#home">Home</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="section-end">
+      <p>Copyright  &copy; 2024 Jamshid Otaboev. All rights reserved.</p>
+    </div>
+    </section>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
